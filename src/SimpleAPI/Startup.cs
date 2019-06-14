@@ -41,6 +41,9 @@ namespace SimpleAPISln
             }
 
             app.UseHttpsRedirection();
+
+
+            
             app.UseMvc();
         }
     }
